@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Fancy Page</title>
+    <link rel="Stylesheet" href="styles.css">
+</head>
+<body>
+    <!--Hidden message-->
+    <div class="content">
+        <p>Believe</p>
+    </div>
+
+    <!--Javascript used to follow mouse movements-->
+    <script>
+        window.addEventListener('mousemove', function(e) {
+          document.documentElement.style.setProperty('--pointerX', e.clientX + 'px');
+          document.documentElement.style.setProperty('--pointerY', e.clientY + 'px');
+        })
+      </script>
+</body>
+
+
+
+</html>
